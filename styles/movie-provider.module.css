@@ -1,0 +1,35 @@
+.container {
+  width: 80%;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+.provider-link:hover {
+  text-decoration: none;
+}
+
+.provider-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, 300px);
+}
+
+.provider-item {
+  height: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.provider-category {
+  text-align: center;
+  width: 80px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0px 5px;
+}
+.provider-channel {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  margin: 0px 5px;
+}
